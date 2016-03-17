@@ -47,7 +47,8 @@ function checkBounds() {
       vy *= 0.5;
     }
     //Coord en rapport au calcule de la width de l'elem
-    ex = ww - ew;    
+    ex = ww - ew;
+    score ++;
   }
 
 
@@ -60,6 +61,7 @@ function checkBounds() {
       vy *= 0.99;
     }
     ex = 0;
+    score ++;
   }
 
 
