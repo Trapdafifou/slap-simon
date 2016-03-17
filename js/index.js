@@ -18,7 +18,10 @@ var elem = document.querySelector( 'div' ),
     score = 0,
     tracking = false,
     raf = null,
-    prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', '' ];
+    prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
+    score = function () {
+
+    };
 console.log(window.innerWidth)
 function prefixCss( elem, prop, val ) {
 	  var length = prefixes.length,
