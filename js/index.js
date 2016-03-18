@@ -2,6 +2,7 @@ $(function() {
   $( "p" ).draggable();
 });
 
+
 var elem = document.querySelector( 'div' ),
     mx = 0,
     my = 0,
@@ -18,8 +19,36 @@ var elem = document.querySelector( 'div' ),
     score = 0,
     tracking = false,
     raf = null,
-    prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', '' ];
-console.log(window.innerWidth)
+    prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
+    weapon = function(score, vx, vy){
+        this.type = ["batte", "pelle", "sextoy"];
+        this.force = 1; // multiplicateur de vx et vy
+        this.life = 200;
+        this.damage = function (){
+           switch (this.type !== 0) {
+
+               case (this.type == "batte"):
+                   this.damage = 5;
+                   weapon.force = 1.2;
+                   break;
+
+               case (this.type == "pelle"):
+                   this.damage = 15;
+                   weapon.force = 2;
+                   break;
+
+               case (this.type == "sextoy"):
+                   this.damage = 50;
+                   weapon.force = 5;
+                   break;
+           }
+        }; //diminue les pv de simon
+        this.img= ""; //modifie le css du pointer avec les armes
+
+    };
+
+console.log(window.innerWidth);
+
 function prefixCss( elem, prop, val ) {
 	  var length = prefixes.length,
 		  i = 0;
@@ -38,7 +67,7 @@ function setElemCoords( x, y ) {
 }
 
 function checkBounds() {
-  //rebonds sur les cotés
+  //rebonds sur droite et limite
   if( ex + ew > ww ) {
     if( tracking ) {
       vx = 0;
@@ -75,6 +104,7 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = wh - eh;
+    score ++;
   }
 
   //  Limite Top
@@ -86,6 +116,7 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = 0;
+    score ++;
   }
 }
 
@@ -121,7 +152,6 @@ function loop() {
   vy *= 0.99;
   ex += vx;
   ey += vy;
-  
   checkBounds();
   
   setElemCoords( ex, ey );
