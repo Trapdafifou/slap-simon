@@ -47,7 +47,6 @@ div {
 div:hover {
   background: url("../Calque 1.png");
   background-size: contain;
-  opacity: 0.6;
   cursor: move;
   cursor: -webkit-grab;
 }
@@ -57,4 +56,8 @@ div:active {
   cursor: move;
   cursor: -webkit-grabbing;
   transition-duration: 100ms;
+}
+h1{
+  z-index: -99;
+  position: absolute;
 }
