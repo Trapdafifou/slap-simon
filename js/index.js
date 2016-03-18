@@ -1,8 +1,3 @@
-$(function() {
-  $( "p" ).draggable();
-});
-
-
 var elem = document.querySelector( 'div' ),
     mx = 0,
     my = 0,
@@ -22,22 +17,27 @@ var elem = document.querySelector( 'div' ),
     prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
     weapon = function(score, vx, vy){
         this.type = ["batte", "pelle", "sextoy"];
+        this.weapSelect = function(){
+            for(i=0; i<this.type.length;i++){
+
+            }
+        };
         this.force = 1; // multiplicateur de vx et vy
         this.life = 200;
         this.damage = function (){
            switch (this.type !== 0) {
 
-               case (this.type == "batte"):
+               case (this.type [0]):
                    this.damage = 5;
                    weapon.force = 1.2;
                    break;
 
-               case (this.type == "pelle"):
+               case (this.type [1]):
                    this.damage = 15;
                    weapon.force = 2;
                    break;
 
-               case (this.type == "sextoy"):
+               case (this.type [3]):
                    this.damage = 50;
                    weapon.force = 5;
                    break;
@@ -152,6 +152,8 @@ function loop() {
   vy *= 0.99;
   ex += vx;
   ey += vy;
+    console.log(vx)
+    console.log(vy)
   checkBounds();
   
   setElemCoords( ex, ey );
@@ -165,5 +167,5 @@ window.addEventListener( 'resize', resizecb, false );
 
 // Propriété initiale de la div
 setElemCoords( ex, ey );
-
+console.log(score);
 loop();
