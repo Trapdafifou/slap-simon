@@ -15,6 +15,7 @@ var elem = document.querySelector( 'div' ),
     tracking = false,
     raf = null,
     prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
+    
     weapon = function(score, vx, vy){
         this.type = ["batte", "pelle", "sextoy"];
         this.weapSelect = function(){
@@ -107,17 +108,17 @@ function checkBounds() {
     score ++;
   }
 
-  //  Limite Top
-  if( ey < 0 ) {
-    if( tracking ) {
-      vy = 0;
-    } else {
-      vx *= 0.99;
-      vy = -vy * 0.7;
-    }
-    ey = 0;
-    score ++;
-  }
+  // //  Limite Top
+  // if( ey < 0 ) {
+  //   if( tracking ) {
+  //     vy = 0;
+  //   } else {
+  //     vx *= 0.99;
+  //     vy = -vy * 0.7;
+  //   }
+  //   ey = 0;
+  //   score ++;
+  // }
 }
 
 function mousedowncb() {
@@ -159,11 +160,25 @@ function loop() {
   setElemCoords( ex, ey );
 }
 
+function WeaponChoose(){
+    var choose = document.querySelector('li');
+    // choose.selected = true;
+
+        weapon.type = weapon.damage;
+        vy *= -2;
+        vx *= -2;
+    console.log('toto')
+
+
+
+}
+
 // Les event
 elem.addEventListener( 'mousedown', mousedowncb, false );
 window.addEventListener( 'mouseup', mouseupcb, false );
 window.addEventListener( 'mousemove', mousemovecb, false );
 window.addEventListener( 'resize', resizecb, false );
+WeaponChoose();
 
 // Propriété initiale de la div
 setElemCoords( ex, ey );
