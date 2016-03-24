@@ -2,299 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90eea350-13aa-4b1d-9465-36bac187982c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/css/external-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/css/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/img/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/.jshintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/build/p2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/build/p2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/build/p2.renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/build/p2.renderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/buoyancy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/car.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/ccd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/circles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/collisions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/compound.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/concave.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/constraints.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/control.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/distanceConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/fixedRotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/fixedXY.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/friction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/gearConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/heightfield.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/islandSolver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/js/Renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/js/WebGLRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/js/dat.gui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/js/pixi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/js/rhill-voronoi-core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/kinematic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/lock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/piston.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/prismatic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/ragdoll.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/removeSensor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/restitution.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/segway.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/sleep.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/softWheel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/springs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/surfaceVelocity.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/suspension.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/tearable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/topDownVehicle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/demos/voronoi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/js/api-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/js/api-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/js/api-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/js/apidocs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/js/yui-prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/vendor/prettify/CHANGES.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/vendor/prettify/COPYING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/vendor/prettify/README.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/vendor/prettify/prettify-min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/assets/vendor/prettify/prettify-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/AABB.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/AngleLockEquation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Box.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Broadphase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Capsule.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Circle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Constraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/ContactEquation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/ContactMaterial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Convex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/DistanceConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Equation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/EventEmitter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/FrictionEquation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/GSSolver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/GearConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Heightfield.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Island.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/IslandManager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/IslandNode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/LinearSpring.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/LockConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Material.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/NaiveBroadphase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Narrowphase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Object pooling utility..html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/OverlapKeeper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/OverlapKeeperRecord.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Particle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Plane.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/PrismaticConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Ray.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/RaycastResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/RevoluteConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/RotationalLockEquation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/RotationalSpring.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/RotationalVelocityEquation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/SAPBroadphase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Shape.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Solver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Spring.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/TopDownVehicle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/TupleDictionary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/Utils.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/WheelConstraint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/World.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/undefined.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/classes/vec2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_AABB.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_Broadphase.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_NaiveBroadphase.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_Narrowphase.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_Ray.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_RaycastResult.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_collision_SAPBroadphase.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_constraints_Constraint.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_constraints_DistanceConstraint.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_constraints_GearConstraint.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_constraints_LockConstraint.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_constraints_PrismaticConstraint.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_constraints_RevoluteConstraint.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_equations_AngleLockEquation.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_equations_ContactEquation.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_equations_Equation.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_equations_FrictionEquation.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_equations_RotationalLockEquation.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_equations_RotationalVelocityEquation.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_events_EventEmitter.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_material_ContactMaterial.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_material_Material.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_math_vec2.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_objects_Body.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_objects_LinearSpring.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_objects_RotationalSpring.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_objects_Spring.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_objects_TopDownVehicle.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Box.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Capsule.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Circle.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Convex.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Heightfield.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Line.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Particle.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Plane.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_shapes_Shape.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_solver_GSSolver.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_solver_Solver.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_ContactEquationPool.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_FrictionEquationPool.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_IslandNodePool.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_IslandPool.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_OverlapKeeper.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_OverlapKeeperRecord.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_OverlapKeeperRecordPool.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_Pool.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_TupleDictionary.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_utils_Utils.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_world_Island.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_world_IslandManager.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_world_IslandNode.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/files/src_world_World.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/docs/modules/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/asteroids.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/box.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/character.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/circle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/interpolation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/mouseJoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/raycasting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/rayreflect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/sensors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/sensors2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/tapball.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/canvas/worker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/dom/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/examples/pixijs/box.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/AABB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/Broadphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/NaiveBroadphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/Narrowphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/Ray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/RaycastResult.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/collision/SAPBroadphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/constraints/Constraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/constraints/DistanceConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/constraints/GearConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/constraints/LockConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/constraints/PrismaticConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/constraints/RevoluteConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/equations/AngleLockEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/equations/ContactEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/equations/Equation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/equations/FrictionEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/equations/RotationalLockEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/equations/RotationalVelocityEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/events/EventEmitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/material/ContactMaterial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/material/Material.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/math/polyk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/math/vec2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/objects/Body.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/objects/LinearSpring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/objects/RotationalSpring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/objects/Spring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/objects/TopDownVehicle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/p2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Capsule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Convex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Heightfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Particle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Plane.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/shapes/Shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/solver/GSSolver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/solver/Solver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/ContactEquationPool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/FrictionEquationPool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/IslandNodePool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/IslandPool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/OverlapKeeper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/OverlapKeeperRecord.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/OverlapKeeperRecordPool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/Pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/TupleDictionary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/utils/Utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/world/Island.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/world/IslandManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/world/IslandNode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/src/world/World.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/style/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/AABB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/Broadphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/NaiveBroadphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/Narrowphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/Ray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/RaycastResult.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/collision/SAPBroadphase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/constraints/Constraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/constraints/DistanceConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/constraints/GearConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/constraints/LockConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/constraints/PrismaticConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/constraints/RevoluteConstraint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/equations/AngleLockEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/equations/ContactEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/equations/Equation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/equations/FrictionEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/equations/RotationalLockEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/equations/RotationalVelocityEquation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/events/EventEmitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/material/ContactMaterial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/material/Material.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/math/vec2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/objects/Body.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/objects/LinearSpring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/objects/RotationalSpring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/p2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Capsule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Convex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Particle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Plane.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/shapes/Shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/solver/GSSolver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/solver/Solver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/utils/ContactEquationPool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/utils/OverlapKeeper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/utils/TupleDictionary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/utils/Utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/world/IslandManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/test/world/World.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/p2.js-master/yuidoc.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="drag-and-drop-ball.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -315,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="5" column="64" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -327,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bodyragdoll.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bodyragdoll.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bodyragdoll.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -376,9 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/jQuery.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/bodyragdoll.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -533,16 +241,16 @@
       <workItem from="1458419922720" duration="137000" />
       <workItem from="1458639752395" duration="1287000" />
       <workItem from="1458721479391" duration="3690000" />
-      <workItem from="1458809665373" duration="3399000" />
+      <workItem from="1458809665373" duration="3628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15139000" />
+    <option name="totallyTimeSpent" value="15368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11275546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -550,7 +258,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.4947146" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.4947146" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -747,16 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -788,6 +486,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="64" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
