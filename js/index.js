@@ -16,7 +16,7 @@ var elem = document.querySelector( 'div' ),
     raf = null,
     prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
     
-    weapon = function(score, vx, vy){
+    weapon = function(score){
         this.type = ["batte", "pelle", "sextoy"];
         this.weapSelect = function(){
             for(i=0; i<this.type.length;i++){
@@ -24,7 +24,6 @@ var elem = document.querySelector( 'div' ),
             }
         };
         this.force = 1; // multiplicateur de vx et vy
-        this.life = 200;
         this.damage = function (){
            switch (this.type !== 0) {
 
@@ -38,7 +37,7 @@ var elem = document.querySelector( 'div' ),
                    weapon.force = 2;
                    break;
 
-               case (this.type [3]):
+               case (this.type [2]):
                    this.damage = 50;
                    weapon.force = 5;
                    break;
@@ -66,8 +65,26 @@ function setElemCoords( x, y ) {
   ex = x;
   ey = y;
 }
+var score = function () {
+    this.begin = 0;
+    this.save = function () {
+        if(!localStorage){
+            console.log('erreur');
+        } else {
+            localStorage.setItem('score', this.getScore);
+        }
+    };
+    this.getScore = this.getScore++;
+
+};
+
+
 
 function checkBounds() {
+
+    var Score = new score().begin;
+    // Score.save();
+
   //rebonds sur droite et limite
   if( ex + ew > ww ) {
     if( tracking ) {
@@ -78,7 +95,7 @@ function checkBounds() {
     }
     //Coord en rapport au calcule de la width de l'elem
     ex = ww - ew;
-    score ++;
+      Score.getScore++;
   }
 
 
@@ -91,7 +108,7 @@ function checkBounds() {
       vy *= 0.99;
     }
     ex = 0;
-    score ++;
+      Score.getScore++;
   }
 
 
@@ -105,20 +122,21 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = wh - eh;
-    score ++;
+       Score.getScore++;
   }
 
-  // //  Limite Top
-  // if( ey < 0 ) {
-  //   if( tracking ) {
-  //     vy = 0;
-  //   } else {
-  //     vx *= 0.99;
-  //     vy = -vy * 0.7;
-  //   }
-  //   ey = 0;
-  //   score ++;
-  // }
+  //  Limite Top
+  if( ey < 0 ) {
+    if( tracking ) {
+      vy = 0;
+    } else {
+      vx *= 0.99;
+      vy = -vy * 0.7;
+    }
+    ey = 0;
+      Score.getScore++;
+  }
+    console.log(Score)
 }
 
 function mousedowncb() {
@@ -142,19 +160,56 @@ function resizecb() {
   wh = window.innerHeight;
 }
 
+
+function vitesse (arme) {
+    var Vitesse = {
+        vy: 0.95,
+        vx: 0.89,
+        // vy:0.99
+    };
+
+    if (weapon.type == "batte"){
+        Vitesse.vy += 0.923534;
+        Vitesse.vx *= 0.9234243242;
+        Vitesse.vy *= 0.9234243242;
+        return Vitesse;
+    } else if(weapon.type =="pelle"){
+        Vitesse.vy += 0.9432432465;
+        Vitesse.vx *= 0.9323242323;
+        Vitesse.vy *= 0.9657756546;
+        return Vitesse;
+    } else if (weapon.type == "sextoys"){
+        Vitesse.vy += 0.999999998;
+        Vitesse.vx *= 0.9843574534;
+        Vitesse.vy *= 0.9234243242;
+        return Vitesse;
+
+    }
+}
+
+
+
+
+
 function loop() {
   raf = requestAnimationFrame( loop );
   if( tracking ) {
     vx = ( mx - mxOffset - ex ) / 2;
     vy = ( my - myOffset - ey ) / 2;
   }
-  vy += 0.9;
-  vx *= 0.99;
-  vy *= 0.99;
+
+    var Vitesse = vitesse(score);
+
+  vy += 0.80000000;
+  vx *= 0.80000000;
+  vy *= 0.80000343;
   ex += vx;
   ey += vy;
-    console.log(vx)
-    console.log(vy)
+    // if (weapon.type == "batte"){
+    //     vx *= 0.95;
+    //     vy *= 0.99;
+    // }
+
   checkBounds();
   
   setElemCoords( ex, ey );
@@ -184,3 +239,4 @@ WeaponChoose();
 setElemCoords( ex, ey );
 console.log(score);
 loop();
+

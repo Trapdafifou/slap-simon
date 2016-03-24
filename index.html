@@ -2,66 +2,58 @@
 <html >
   <head>
     <meta charset="UTF-8">
+    <script src="js/p2.js-master/build/p2.js"></script>
+    <script src="js/p2.js-master/build/p2.renderer.js"></script>
     <title>Drag and Drop Ball</title>
 
     <link rel="stylesheet" href="css/reset.css">
-
-    
-        <style>
+  </head>
+  <body>
+  <style>
       /* NOTE: le css est placé ici pour l'ajout des préfixes moz -webkit- */
       body {
-  background: #FFFFFF;
-  overflow: hidden;
-        text-align: center;
-}
+          background: #FFFFFF;
+          overflow: hidden;
+          text-align: center;
+      }
 
-h1{
-  color: #000000;
-  font-size: 100pt;
-  font-family: "Comic Sans MS";
-  user-select: none;
-  cursor: pointer;
-}
+      h1 {
+          color: #000000;
+          font-size: 100pt;
+          font-family: "Comic Sans MS";
+          user-select: none;
+          cursor: pointer;
+      }
 
-div {
-  background: no-repeat url("./Calque 1.png");
-  background-size: contain;
-  height: 300px;
-  transition: background 300ms;
-  width: 250px;
-;
-}
+      div {
+          background: no-repeat url("./Calque 1.png");
+          background-size: contain;
+          height: 300px;
+          transition: background 300ms;
+          width: 250px;;
+      }
 
-div:hover {
-  background: no-repeat url("./Calque 1.png");
-  background-size: contain;
-  opacity: 0.6;
-  cursor: move;
-  cursor: -webkit-grab;
-}
+      div:hover {
+          background: no-repeat url("./Calque 1.png");
+          background-size: contain;
+          opacity: 0.6;
+          cursor: move;
+          cursor: -webkit-grab;
+      }
 
-div:active {
-  cursor: move;
-  cursor: -webkit-grabbing;
-  transition-duration: 100ms;
-}
-    </style>
-        <script src="js/prefixfree.min.js"></script>
-        <script src="js/jQuery.js"></script>
-
-    
-  </head>
-
-  <body>
-
-
-
-    <div class="simon"></div>
-    <h1>Slap Simon</h1>
-        <script src="js/index.js"></script>
-    
-    
-    
-    
+      div:active {
+          cursor: move;
+          cursor: -webkit-grabbing;
+          transition-duration: 100ms;
+      }
+  </style>
+  <div class="simon"></div>
+  <h1>Slap Simon</h1>
+  <script src="js/prefixfree.min.js"></script>
+  <script src="../build/p2.js"></script>
+  <script src="../build/p2.renderer.js"></script>
+  <script src="js/jQuery.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/bodyragdoll.js"></script>
   </body>
 </html>
