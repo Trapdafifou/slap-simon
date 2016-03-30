@@ -1,53 +1,31 @@
+//On prends la div (Simon)
 var elem = document.querySelector( 'div' ),
+// Masse par rapport a X et Y
     mx = 0,
     my = 0,
     mxOffset = 0,
     myOffset = 0,
+// Position var Elem
+// e = Elem
     ex = 0,
     ey = 0,
+// Taille Elem  Width/Height
     ew = elem.offsetWidth,
     eh = elem.offsetHeight,
+// Vélocité sur coordonnées X et Y
     vx = 0,
     vy = 0,
+// Taille de la fenêtre du navigateur  Width/Heigh
+// Modifiable par la suite sur une div
     ww = window.innerWidth,
     wh = window.innerHeight,
-    score = 0,
+// Quand la souris drag l'Elem
     tracking = false,
+// Rafraichis la fenêtre avec la function loop()
     raf = null,
-    prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
-    weapon = function(){
-        this.type = ["batte", "pelle", "sextoy"];
-        this.weapSelect = function(){
-            for(i=0; i<this.type.length;i++){
 
-            }
-        };
-        this.force = 1; // multiplicateur de vx et vy
-        this.damage = function (){
-           switch (this.type !== 0) {
-
-               case (this.type [0]):
-                   this.damage = 5;
-                   weapon.force = 1.2;
-                   break;
-
-               case (this.type [1]):
-                   this.damage = 15;
-                   weapon.force = 2;
-                   break;
-
-               case (this.type [2]):
-                   this.damage = 50;
-                   weapon.force = 5;
-                   break;
-           }
-        }; //diminue les pv de simon
-        this.img= ""; //modifie le css du pointer avec les armes
-
-    };
-
-console.log(window.innerWidth);
-
+// Compatibilité navigateurs
+    prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''];
 function prefixCss( elem, prop, val ) {
 	  var length = prefixes.length,
 		  i = 0;
@@ -56,7 +34,9 @@ function prefixCss( elem, prop, val ) {
 	  }
 }
 
+console.log(window.innerWidth);
 
+//Permet le mouvement;
 function setElemCoords( x, y ) {
   prefixCss( elem, 'transform', 'translate3d( ' + x + 'px, ' + y + 'px, 0)'  );
   elem.setAttribute( 'data-x', x );
@@ -65,37 +45,21 @@ function setElemCoords( x, y ) {
   ey = y;
 }
 
-var score = function () {
-    this.begin = 0;
-    this.save = function () {
-        if(!localStorage){
-            console.log('erreur');
-        } else {
-            localStorage.setItem('score', this.getScore);
-        }
-    };
-
-};
-
 
 
 function checkBounds() {
 
-    var Score = new score();
-    // Score.save();
-
-  //rebonds sur droite et limite
+  //Limite droite de la window
   if( ex + ew > ww ) {
     if( tracking ) {
       vx = 0;
     } else {
-      vx = -vx * 0.5;
-      vy *= 0.5;
+      //  reviens vers la gauche + VITESSE DE L'ELEM
+      vx = -vx * 0.99;
+      vy *= 0.99;
     }
     //Coord en rapport au calcule de la width de l'elem
     ex = ww - ew;
-      Score.begin++;
-      console.log(Score.begin)
   }
 
 
@@ -104,12 +68,10 @@ function checkBounds() {
     if( tracking ) {
       vx = 0;
     } else {
-      vx = -vx * 0.7;
+      vx = -vx * 0.99;
       vy *= 0.99;
     }
     ex = 0;
-      Score.begin++;
-      console.log(Score.begin)
   }
 
 
@@ -123,8 +85,6 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = wh - eh;
-       Score.begin++;
-       console.log(Score.begin)
   }
 
   //  Limite Top
@@ -136,12 +96,11 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = 0;
-      Score.begin++;
-      console.log(Score.begin)
   }
 }
 
 function mousedowncb() {
+  //  L'elem Suit la souris.
   tracking = true;
   setElemCoords( ex, ey );
   mxOffset = mx - ex;
@@ -170,63 +129,31 @@ function vitesse (arme) {
         // vy:0.99
     };
 
-    if (weapon.type == "batte"){
-        Vitesse.vy += 0.923534;
-        Vitesse.vx *= 0.9234243242;
-        Vitesse.vy *= 0.9234243242;
-        return Vitesse;
-    } else if(weapon.type =="pelle"){
-        Vitesse.vy += 0.9432432465;
-        Vitesse.vx *= 0.9323242323;
-        Vitesse.vy *= 0.9657756546;
-        return Vitesse;
-    } else if (weapon.type == "sextoys"){
-        Vitesse.vy += 0.999999998;
-        Vitesse.vx *= 0.9843574534;
-        Vitesse.vy *= 0.9234243242;
-        return Vitesse;
 
-    }
 }
-
-
-
 
 
 function loop() {
   raf = requestAnimationFrame( loop );
   if( tracking ) {
-    vx = ( mx - mxOffset - ex ) / 2;
-    vy = ( my - myOffset - ey ) / 2;
+    vx = ( mx - mxOffset - ex ) /2;
+    vy = ( my - myOffset - ey ) /2 ;
   }
 
-    var Vitesse = vitesse(score);
+    var Vitesse = vitesse();
 
-  vy += 1;
-  vx *= 0.80000000;
-  vy *= 0.80000343;
+  //  Vitesse de base X/Y
+  vy += 0.90;
+  vx *= 0.99;
+  vy *= 0.99;
+  //  vx et vy définissent la nouvelle position x/y de l'Elem
   ex += vx;
   ey += vy;
-    // if (weapon.type == "batte"){
-    //     vx *= 0.95;
-    //     vy *= 0.99;
-    // }
 
+  //  Appel la fonction des limites et rebonds
   checkBounds();
   
   setElemCoords( ex, ey );
-}
-
-function WeaponChoose(){
-    var choose = document.querySelector('li');
-    // choose.selected = true;
-
-        weapon.type = weapon.damage;
-        vy *= -2;
-        vx *= -2;
-    console.log('toto')
-
-
 
 }
 
@@ -235,7 +162,7 @@ elem.addEventListener( 'mousedown', mousedowncb, false );
 window.addEventListener( 'mouseup', mouseupcb, false );
 window.addEventListener( 'mousemove', mousemovecb, false );
 window.addEventListener( 'resize', resizecb, false );
-WeaponChoose();
+
 
 // Propriété initiale de la div
 setElemCoords( ex, ey );
