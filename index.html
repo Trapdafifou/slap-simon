@@ -2,8 +2,7 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <script src="js/p2.js-master/build/p2.js"></script>
-    <script src="js/p2.js-master/build/p2.renderer.js"></script>
+
     <title>Drag and Drop Ball</title>
 
     <link rel="stylesheet" href="css/reset.css">
@@ -26,7 +25,7 @@
       }
 
       div {
-          background: no-repeat url("./Calque 1.png");
+          background: no-repeat url("./Calque 0.png");
           background-size: contain;
           height: 300px;
           transition: background 300ms;
@@ -34,7 +33,7 @@
       }
 
       div:hover {
-          background: no-repeat url("./Calque 1.png");
+          background: no-repeat url("./Calque 0.png");
           background-size: contain;
           opacity: 0.6;
           cursor: move;
@@ -47,11 +46,14 @@
           transition-duration: 100ms;
       }
   </style>
-  <div class="simon"></div>
+  <div class="simon">
+
+  </div>
   <h1>Slap Simon</h1>
+
   <script src="js/prefixfree.min.js"></script>
-  <script src="../build/p2.js"></script>
-  <script src="../build/p2.renderer.js"></script>
+  <script src="js/p2.js-master/build/p2.js"></script>
+  <script src="js/p2.js-master/build/p2.renderer.js"></script>
   <script src="js/jQuery.js"></script>
   <script src="js/index.js"></script>
   <script src="js/bodyragdoll.js"></script>

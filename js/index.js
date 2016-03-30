@@ -15,8 +15,7 @@ var elem = document.querySelector( 'div' ),
     tracking = false,
     raf = null,
     prefixes = [ '-o-', '-ms-', '-moz-', '-webkit-', ''],
-    
-    weapon = function(score){
+    weapon = function(){
         this.type = ["batte", "pelle", "sextoy"];
         this.weapSelect = function(){
             for(i=0; i<this.type.length;i++){
@@ -65,6 +64,7 @@ function setElemCoords( x, y ) {
   ex = x;
   ey = y;
 }
+
 var score = function () {
     this.begin = 0;
     this.save = function () {
@@ -74,7 +74,6 @@ var score = function () {
             localStorage.setItem('score', this.getScore);
         }
     };
-    this.getScore = this.getScore++;
 
 };
 
@@ -82,7 +81,7 @@ var score = function () {
 
 function checkBounds() {
 
-    var Score = new score().begin;
+    var Score = new score();
     // Score.save();
 
   //rebonds sur droite et limite
@@ -95,7 +94,8 @@ function checkBounds() {
     }
     //Coord en rapport au calcule de la width de l'elem
     ex = ww - ew;
-      Score.getScore++;
+      Score.begin++;
+      console.log(Score.begin)
   }
 
 
@@ -108,7 +108,8 @@ function checkBounds() {
       vy *= 0.99;
     }
     ex = 0;
-      Score.getScore++;
+      Score.begin++;
+      console.log(Score.begin)
   }
 
 
@@ -122,7 +123,8 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = wh - eh;
-       Score.getScore++;
+       Score.begin++;
+       console.log(Score.begin)
   }
 
   //  Limite Top
@@ -134,9 +136,9 @@ function checkBounds() {
       vy = -vy * 0.7;
     }
     ey = 0;
-      Score.getScore++;
+      Score.begin++;
+      console.log(Score.begin)
   }
-    console.log(Score)
 }
 
 function mousedowncb() {
@@ -200,7 +202,7 @@ function loop() {
 
     var Vitesse = vitesse(score);
 
-  vy += 0.80000000;
+  vy += 1;
   vx *= 0.80000000;
   vy *= 0.80000343;
   ex += vx;
@@ -237,6 +239,5 @@ WeaponChoose();
 
 // Propriété initiale de la div
 setElemCoords( ex, ey );
-console.log(score);
 loop();
 
